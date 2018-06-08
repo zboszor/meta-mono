@@ -1,12 +1,12 @@
 [submodule "ci/external/poky"]
 	path = ci/external/poky
 	url = git://git.yoctoproject.org/poky
-        branch = master
+        branch = morty
 [submodule "ci/external/meta-openembedded"]
 	path = ci/external/meta-openembedded
 	url = git://github.com/openembedded/meta-openembedded.git
-        branch = master
+        branch = morty
 [submodule "ci/external/meta-mono"]
 	path = ci/external/meta-mono
 	url = git://git.yoctoproject.org/meta-mono
-        branch = master
+        branch = morty
