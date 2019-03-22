@@ -1,0 +1,26 @@
+diff --git a/MSBuild.Dev.sln b/MSBuild.Dev.sln
+index 8501c0a4..9d69dca2 100644
+--- a/MSBuild.Dev.sln
++++ b/MSBuild.Dev.sln
+@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2009
+ MinimumVisualStudioVersion = 10.0.40219.1
+ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build", "src\Build\Microsoft.Build.csproj", "{69BE05E2-CBDA-4D27-9733-44E12B0F5627}"
+ EndProject
+-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build.Engine.OM.UnitTests", "src\Build.OM.UnitTests\Microsoft.Build.Engine.OM.UnitTests.csproj", "{5C53E4FD-0985-432D-B9E4-7BC354A057E5}"
+-EndProject
+ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build.Engine.UnitTests", "src\Build.UnitTests\Microsoft.Build.Engine.UnitTests.csproj", "{774DCE9B-F775-4B6D-943D-C841F755DBDE}"
+ EndProject
+ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build.Framework", "src\Framework\Microsoft.Build.Framework.csproj", "{69C7E5AF-5D29-42B3-BA76-F7C4F0EDF251}"
+diff --git a/MSBuild.sln b/MSBuild.sln
+index d275ca03..73fd473b 100644
+--- a/MSBuild.sln
++++ b/MSBuild.sln
+@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{760F
+ EndProject
+ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build", "src\Build\Microsoft.Build.csproj", "{69BE05E2-CBDA-4D27-9733-44E12B0F5627}"
+ EndProject
+-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build.Engine.OM.UnitTests", "src\Build.OM.UnitTests\Microsoft.Build.Engine.OM.UnitTests.csproj", "{5C53E4FD-0985-432D-B9E4-7BC354A057E5}"
+-EndProject
+ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build.Engine.UnitTests", "src\Build.UnitTests\Microsoft.Build.Engine.UnitTests.csproj", "{774DCE9B-F775-4B6D-943D-C841F755DBDE}"
+ EndProject
+ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Build.Framework", "src\Framework\Microsoft.Build.Framework.csproj", "{69C7E5AF-5D29-42B3-BA76-F7C4F0EDF251}"
