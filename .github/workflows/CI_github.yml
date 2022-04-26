@@ -12,9 +12,9 @@ jobs:
     runs-on: [self-hosted, linux]
     strategy:
       matrix:
-        mono_version: [6.12.0.154]
+        mono_version: [6.12.0.161]
         branch: [honister]
-        arch: [x86, arm]
+        arch: [x86-64, arm]
     env:
       name: build-and-test
       MONO_VERSION: ${{ matrix.mono_version }}
