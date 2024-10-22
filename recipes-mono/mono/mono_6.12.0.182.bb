@@ -3,6 +3,8 @@ require mono-mit-bsd-6xx.inc
 require ${PN}-base.inc
 require mono-${PV}.inc
 
+PR = "r1"
+
 RDEPENDS:${PN}-dev =+ " zlib "
 
 SRC_URI = "http://download.mono-project.com/sources/mono/mono-${PV}.tar.xz \
